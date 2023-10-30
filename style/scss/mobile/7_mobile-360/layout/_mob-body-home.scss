@@ -1,0 +1,42 @@
+@media (max-width: 360px) {
+  .cover-inner {
+    background-image: url(/img/html-bg.webp), url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-position: 0% 57%, 140% 83%, 94% 100%;
+    background-repeat: no-repeat;
+    background-size: 0%, 57%, 0%;
+}
+  .cover-top {
+    height: 30vh;
+  }
+  .cover-bottom {
+    height: 48vh;
+  }
+
+  .cover-top__2__h1-large__css-buble__star {
+    top: -23px;
+    left: -19px;
+}
+
+  .cover-bottom__3{
+    &__hello-world_stiker{
+      top: -6%;
+    }
+    &__star1-mak{
+      max-width: 28%;
+      top: 22%;
+      left: 47%;
+    }
+    &__star2-mak{    
+      max-width: 13%;
+      top: 37%;
+      right: 4%;
+    }
+    &__star{
+      & img{
+        &:nth-child(2){
+          bottom: 17%;
+        }
+      }
+    }
+  }
+}

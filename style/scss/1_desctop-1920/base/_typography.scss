@@ -1,0 +1,166 @@
+.first-font {
+  font-family: 'Tablon', 'Montserrat', Verdana, 'Geneva', sans-serif;
+}
+
+.second-font {
+  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+}
+
+
+
+// ********************** h1
+h1 {
+  @extend .first-font;
+  font-size: 5em; //80
+  font-weight: 500; //medium
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 101%;
+  color: $white-grey;
+}
+
+h2 {
+  @extend .first-font;
+  font-size: 4.6875em; // 75
+  font-weight: 500; //medium
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 108%;
+  color: $white-grey;
+}
+h3 {
+  @extend .first-font;
+  font-size: 2em; // 32
+  font-weight: 500; //medium
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 108%;
+  color: $white-grey;
+}
+h4 {
+  @extend .first-font;
+  font-size: 1.6em; //32
+  font-weight: 500; //medium
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 108%;
+  color: $white-grey;
+}
+// ****************** menu
+.main-menu__item {
+  & span{
+    @extend .second-font;
+    font-size: 1em; //16px
+    font-weight: 400; //regular
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.025em;
+    color: $white-grey;
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  & a{
+    @extend .first-font;
+    font-size: 2.5em; //40px
+    font-weight: 400; //regular
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.025em;
+    color: $white-grey;
+    text-decoration: none;
+  }
+}
+
+// *************** main text
+a {
+  @extend .second-font;
+  font-size: 1em; //16px
+  font-weight: 400; //regular
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: $white-grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-basic,
+p, span {
+  @extend .second-font;
+  font-size: 1em; //16px
+  font-weight: 400; //regular
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: $white-grey;
+}
+
+footer p, footer span {
+  @extend .second-font;
+  font-size: 1em; 
+  font-weight: 700; 
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: $body-bg;
+  padding-bottom: 2px;
+}
+
+.tabs > label{ 
+  @extend .second-font;
+  font-size: 1.5em; //19.2px
+  font-weight: 400; //regular
+  font-stretch: normal;
+  font-style: normal; 
+  text-align: center;
+  letter-spacing: 0.025em;
+  vertical-align: middle;  
+  color: $white-grey;
+}
+
+.marquee1, .marquee2 {
+  @extend .first-font;
+  font-size: 2.375em; //38px
+  font-weight: 500; //regular
+  font-stretch: normal;
+  font-style: normal;
+}
+// АНГЛ
+.marquee1{
+  color: $white-grey;
+}
+// РУС
+.marquee2{
+  color: $body-bg;
+}
+
+.accordion__header__title p {
+  &:nth-child(1) {
+    @extend .first-font;
+    font-size: 5em; //80px
+    font-style: normal;
+    font-weight: 500;
+  }
+  &:nth-child(2) {
+    @extend .second-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em; //32
+    line-height: 120%;
+  }
+}
+
+// ***************** footer
+.footer-text p{
+@extend .second-font;
+font-style: normal;
+font-weight: 400;
+font-size: 0.875em;
+line-height: 110%;
+}

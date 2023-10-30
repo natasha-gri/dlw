@@ -1,0 +1,131 @@
+@media (max-width : 1600px) {
+  .cover-top__1{
+    &__lines-left-1{
+      max-width: 79%;
+      top: 12%;
+      left: -69px;
+    }
+    &__arrows-icon{
+      max-width: 21%;
+      top: 21%;
+      left: 26%;  
+    }
+    &__lines-left-2{
+      top: 38%;
+      right: -56px;
+    }
+  }
+  .cover-top__2{
+    &__h1-large{
+      &__css-buble{
+        max-width: 18%;
+        top: -10px;
+        right: -27px;
+      &__star{
+        max-width: 38%;
+        top: -40px;
+        left: 11px;
+      }
+      }
+    }    
+  }
+  .cover-top__3{
+    &__lines-right{
+      max-width: 86%;
+      top: 36%;
+      right: -68px;
+    }
+    &__css-table{
+      top: 41%;
+      right: 34px;
+    }
+    &__css-logo{
+      max-width: 20%;
+      bottom: -3%;
+      right: 22%;
+    }
+  }
+  .cover-bottom {
+    height: 38vh;
+  }
+  .cover-bottom__1{
+    &__tags-block {
+      max-width: 31%;
+      top: -64px;
+      left: 2px;
+    }
+    &__circle-wrap{
+      width: 210px;
+      &__arrow-circle{
+        max-width: 26%;
+        bottom: 77px;
+        left: 77px;
+      }
+      &__circle{
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  .cover-bottom__2{
+    &__html-buble{
+      max-width: 22%;
+      top: 15%;
+      left: -1%;
+    }
+    &__love_css {
+      max-width: 38%;
+      top: 45%;
+      left: 18%;
+    }
+    &__hello-world_stiker{
+      max-width: 27%;
+      bottom: 29%;
+    }
+    &__wp-stiker{
+      max-width: 17%;
+      right: 128px;
+    }
+  }
+  .cover-bottom__3{
+    &__star1-mak{
+      top: 0%;
+      left: 7%;
+    }
+    &__star2-mak{
+      top: 8%;
+      right: -2%;
+    }
+    &__macintosh{
+      max-width: 81%;
+      right: 3%;
+    }
+  }
+  
+/*------------------------------------------*/
+/*                   табы                   */
+/*------------------------------------------*/
+.services {
+  & img {
+    bottom: -45%;
+  }
+  }
+  .tabs>label{
+    padding: 15px 10px;
+  }
+  .tab-content{
+    margin-top: 55px;
+  }
+
+/*-------------------------------------------*/
+/*                   lines                   */
+/*-------------------------------------------*/
+  .marquee-hide{
+    width: 98.9vw;
+    margin-top: -38px;
+  }
+  .marquee-container1 {
+    transform: translate(-8px, 65px) rotate(354deg);
+  }
+
+}

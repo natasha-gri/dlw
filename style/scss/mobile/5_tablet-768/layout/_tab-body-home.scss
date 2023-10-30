@@ -1,0 +1,72 @@
+@media (max-width : 834px) {
+  .cover-top {
+    height: 25vh;
+  }
+  .cover-bottom {
+    height: 29vh;
+  }
+
+  .cover-bottom__2{
+    &__love_css {
+      max-width: 47%;
+      top: 23%;
+      left: 6%;
+    }
+    &__hello-world_stiker{
+      max-width: 36%;
+      bottom: 24%;
+      right: 38px;
+    }
+    &__wp-stiker{
+      right: 153px;
+    }
+  }
+  .cover-bottom__1{
+    &__tags-block {
+      max-width: 58%;
+      top: -50px;
+      left: 22px;
+    }
+    &__circle-wrap{
+      width: 182px;
+      &__arrow-circle{
+        bottom: 65px;
+        left: 65px;
+      }
+    }
+  }
+/*------------------------------------------*/
+/*                   табы                   */
+/*------------------------------------------*/
+.services {
+  & img {
+    display: none;
+  }
+}
+.tab-content div{
+  width: 100%;
+}
+/*-------------------------------------------*/
+/*                   lines                   */
+/*-------------------------------------------*/
+.marquee-hide{
+  margin-top: 45px;
+}
+.marquee-container1 {
+  width: 113%;
+  transform: translate(-8px, 0px) rotate(354deg);
+}
+.marquee-container2 {
+  width: 100%;
+  transform: translate(0px, 166px);
+}
+/*-------------------------------------------*/
+/*                 accordion                 */
+/*-------------------------------------------*/
+.accordion__content__bottom {
+  display: flex;
+  column-gap: 44px;
+  flex-direction: column;
+  row-gap: 18px;
+}
+}

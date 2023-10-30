@@ -1,0 +1,22 @@
+@media (max-width: 360px) {
+  span {
+    font-size: 0.75em;
+  }
+  a {
+    font-size: 0.75em;
+}
+  .accordion__header__title p:nth-child(1) {
+    font-size: 1.8em;
+  }
+  .accordion__header__title p:nth-child(2) {
+    margin-top: -5px;
+    font-size: 0.75em;
+  }
+  footer p{
+    font-size: 0.85em;
+  }
+  footer span {
+    font-size: 1.3125em; //21px
+  }
+}
+

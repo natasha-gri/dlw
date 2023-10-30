@@ -1,0 +1,16 @@
+@media (max-width : 1280px) {
+  .main-menu__item a {
+    font-size: 2em;
+  }
+  .tabs > label{ 
+    font-size: 1.2em; //24px
+  }
+  .accordion__header__title p:nth-child(1) {
+    font-size: 4em;
+  }
+  .accordion__header__title p:nth-child(2) {
+    margin-top: -20px;
+    margin-left: 161px;
+    font-size: 1.5em;
+}
+}

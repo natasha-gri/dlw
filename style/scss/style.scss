@@ -1,0 +1,48 @@
+/* 1_desctop-от 1600 до 1920 */
+@import '1_desctop-1920/helpers/variables';
+@import '1_desctop-1920/helpers/model';
+@import '1_desctop-1920/base/typography';
+@import '1_desctop-1920/components/icons';
+@import '1_desctop-1920/layout/b-header'; 
+@import '1_desctop-1920/layout/menu';
+// @import '1_desctop-1920/layout/tabs-1';
+// @import '1_desctop-1920/layout/tabs-2';
+@import '1_desctop-1920/layout/body-home';
+@import '1_desctop-1920/layout/body-some-page';
+@import '1_desctop-1920/layout/b-footer'; 
+@import '1_desctop-1920/layout/slider'; 
+@import '1_desctop-1920/components/buttons';
+@import '1_desctop-1920/components/forms';
+  
+/* 2_desctop-от 1280 до 1600 */
+@import '2_desctop-1600/base/desc-typography'; 
+@import '2_desctop-1600/layout/desc-body-home';
+
+/* 3_desctop-от 1024 до 1280 */
+@import '3_desctop-1280/base/desc-typography';
+@import '3_desctop-1280/layout/b-desc-header'; 
+@import '3_desctop-1280/layout/desc-body-home'; 
+
+//*************** mobile
+
+/* 4_tablet-от 768 до 1024 */
+@import 'mobile/4_tablet-1024/layout/b-tab-footer'; 
+@import 'mobile/4_tablet-1024/layout/tab-body-home'; 
+
+/* 5_tablet-от 480 до 768*/
+@import 'mobile/5_tablet-768/base//tab-typography';
+@import 'mobile/5_tablet-768/layout/b-tab-header'; 
+@import 'mobile/5_tablet-768/layout/tab-body-home'; 
+@import 'mobile/5_tablet-768/layout/b-tab-footer'; 
+
+/* 6_mob-от 360 до 480*/
+@import 'mobile/6_mobile-480/base/mob-typography';
+@import 'mobile/6_mobile-480/layout/b-mob-header'; 
+@import 'mobile/6_mobile-480/layout/mob-body-home';
+@import 'mobile/6_mobile-480/layout/b-mob-footer'; 
+
+/* 7_mob-до 360*/
+@import 'mobile/7_mobile-360/base/mob-typography';
+@import 'mobile/7_mobile-360/layout/b-mob-header'; 
+@import 'mobile/7_mobile-360/layout/mob-body-home';
+@import 'mobile/7_mobile-360/layout/b-mob-footer'; 

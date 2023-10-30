@@ -1,0 +1,20 @@
+/* Заголовочный */
+
+@font-face {
+  font-family: 'Tablon';
+  src: url('../../font/NeueMachina/Tablon-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Основной */
+
+@font-face {
+    font-family: 'PT-Mono';
+    src: url('../../font/PT-Mono/PT-Mono_Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,31 @@
+@media (max-width: 360px) {
+.main-menu{
+  width: 84vw;
+}
+/*-------------------------------------------*/
+/*                   lines                   */
+/*-------------------------------------------*/
+  .marquee-container2 {
+    height: 36px;
+    width: 150%;
+    transform: translate(-140px, 166px);
+}
+/*-------------------------------------------*/
+/*                 accordion                 */
+/*-------------------------------------------*/
+.accordion__header {
+  padding: 14px 0 26px 0;
+}
+
+.accordion__content {
+  padding-bottom: 26px;
+}
+.accordion__header::after {
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+}
+.accordion__content__bottom img{
+  max-width: 8%;
+  }
+}

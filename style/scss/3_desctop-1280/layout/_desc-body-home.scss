@@ -1,0 +1,159 @@
+@media (max-width : 1280px) {
+  .cover-top__1{
+    width: $cover-1280__1;
+    &__lines-left-1{
+      max-width: 98%;
+      top: 12%;
+      left: -64px;
+    }
+    &__arrows-icon{
+      max-width: 27%;
+      top: 20%;
+      left: 31%;
+    }
+    &__lines-left-2{
+      max-width: 135%;
+      top: 37%;
+      right: -130px;
+    }
+  }
+  .cover-top__2{
+    width: $cover-1280__2;
+    &__h1-large{
+      &__3-planets{
+        max-width: 100%;
+        bottom: 11%;
+        left: -22px;
+      }
+      &__css-buble{
+        top: -7px;
+        right: -14px;
+          &__star{
+          max-width: 38%;
+          top: -35px;
+          left: 15px;
+          }
+      }
+    }
+    &__h1-small{
+      &__text{
+        margin-top: -5px;
+      }
+    }
+  }
+  .cover-top__3{
+    width: $cover-1280__3;
+    &__lines-right{
+      max-width: 117%;
+      top: 35%;
+      right: -64px;
+    }
+    &__css-table{
+      max-width: 21%;
+      top: 39%;
+      right: 30px;
+    }
+    &__css-logo{
+      max-width: 27%;
+      bottom: 3%;
+      right: 27%;
+    }
+  }
+  .cover-bottom {
+    height: 41vh;
+  }
+  .cover-bottom__1{
+    width: $cover-1280__1;
+    &__tags-block {
+      max-width: 39%;
+      top: -68px;
+      left: -2px;
+    }
+    &__circle-wrap{
+      width: 185px;
+      &__arrow-circle{
+        max-width: 29%;
+        bottom: 68px;
+        left: 66px;
+      }
+      &__circle{
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  .cover-bottom__2{
+    width: $cover-1280__2;
+    &__html-buble{
+      max-width: 21.5%;
+      top: 13%;
+      left: 8%;
+    }
+    &__love_css {
+      max-width: 38%;
+      top: 42%;
+      left: 18%;
+    }
+    &__hello-world_stiker{
+      max-width: 26%;
+      bottom: 32%;
+      right: -11px;
+    }
+    &__wp-stiker{
+      max-width: 17%;
+      right: 112px;
+    }
+  }
+  .cover-bottom__3{
+    width: $cover-1280__3;
+    &__star1-mak{
+      max-width: 55%;
+      top: 0%;
+      left: -12%;
+    }
+    &__star2-mak{
+      max-width: 23%;
+      top: 5%;
+      right: -6%;
+    }
+    &__macintosh{
+      max-width: 112%;
+      right: 1%;
+    }
+  }
+
+/*------------------------------------------*/
+/*                   табы                   */
+/*------------------------------------------*/
+.services {
+  & img {
+    bottom: -34%;
+  }
+}
+.tab-content div{
+  padding-right: 0%;
+}
+
+/*-------------------------------------------*/
+/*                   lines                   */
+/*-------------------------------------------*/
+.marquee-hide{
+  width: 98.7vw;
+}
+.marquee-container1 {
+  transform: translate(-8px, 83px) rotate(354deg);
+}
+/*-------------------------------------------*/
+/*                 accordion                 */
+/*-------------------------------------------*/
+.accordion__header {
+  padding: 20px 0 40px 0;
+  &__img {
+    width: 270px;
+    top: 38px;
+  }
+}
+.accordion__content {
+  padding-bottom: 40px;
+}
+}
