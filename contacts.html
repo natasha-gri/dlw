@@ -5,89 +5,122 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Эксперт</title>
+  <title>DLW</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-
   <link rel="stylesheet" href="style/css/reset.css">
+  <link rel="stylesheet" href="style/css/fontello.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/css/fonts.css">
+  <link rel="stylesheet" href="style/css/iconsprit.css">
+  <link rel="stylesheet" href="style/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="style/css/style.css">
-
+  <script defer src="js/swiper-bundle.min.js"></script>
   <script defer src="js/main.js"></script>
 </head>
 
 <body>
   <div class="main-container">
     <header>
-      <!-- блок меню -->
       <div class="header g-rowpd_header">
-        <div class="header-inner g-colsr">          
-          <!-- лого -->
-          <div class="">
-              <a href="index.html"><img src="img/logo-desctop.svg" alt="logo-desctop" width="150"></a>
+        <div class="header-inner g-colscr">   
+          <div class="header-logo">
+            <a href="index.html"><img src="img/logo-desctop.svg" alt="logo-desctop" width=""></a>
           </div>
-          <!-- меню -->
-          <div id="mainMenu" class="main-menu">
-
-            <!-- <label for="menu" class="main-menu__label"></label>
-            <input id="menu" type="checkbox" class="main-menu__input"> -->
-
-            <nav id="#">
-              <ul class="main-menu__list">
-                <li class="main-menu__item">
-                  <a href="/model.html">_процесс</a>   
-                </li>                    
-                <li class="main-menu__item">
-                  <a href="/model.html">_контакты</a>
-                </li>
-                <li class="main-menu__item">
-                  <a href="/model.html">_модель</a>
-                </li>
-              </ul>
-            </nav>
+          <div class="burger-container">
+            <input type="checkbox" name="" id="">
+            <div class="burger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+            </div>
+            <div id="mainMenu" class="main-menu">
+              <nav id="#">
+                <ul class="main-menu__list">
+                  <li class="main-menu__item">
+                    <span>01</span><a href="index.html">главная</a>   
+                  </li> 
+                  <li class="main-menu__item">
+                    <span>02</span><a href="/process.html">процесс</a>   
+                  </li>                    
+                  <!-- <li class="main-menu__item">
+                    <span>03</span><a href="/model.html">челендж</a>
+                  </li> -->
+                  <li class="main-menu__item">
+                    <span>03</span><a href="/contacts.html">контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
-
         </div>
       </div>
+
     </header>
 
     <main>
-      <!-- Контакты -->
-      <section>
-        <div class="contacts g-rowpd_name">
-          <div class="contacts-inner g-colsr">  
-              <p>+7 982 983 01 60</p>
-              <p>mail@mail.ru</p>
-              <p>https://github.com/natasha-gri</p>
-          </div>
-        </div>
-      </section>
+      
+      <!-- 1 блок Процесс -->
+      <section>  
+        <!-- Табы -->
+        <section>
+          <div class="process g-rowpd_process">
+            <div class="process-inner g-colscr">  
+              <h2>Контакты</h2>
+              <div>
+                <p>Мы ценим прозрачность и готовы начать работу, чтобы реализовать ваш веб-проект. Если у вас возникнут вопросы или потребуется дополнительная информация, не стесняйтесь обращаться к нам. Мы готовы сотрудничать с вами и помочь воплотить в жизнь ваше веб-решение</p>
+              </div>
+              <img src="/img/phone.svg" alt="">
+              <img src="/img/mail.svg" alt="">
 
-      <!-- Форма -->
-      <section>
-        <div class="form g-rowpd_name">
-          <div class="form-inner g-colsr">  
-              <p>Форма</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section> 
     </main>
             
     <div class="clr"></div>
     <!-- end class="main-container" -->
   </div>
 
-<footer>
-  <div class="footer">  
-    <div class="footer-inner g-colsr">
-      <p class="footer-text">2023г</p>
-      <p class="footer-text"><span>&copy;&nbsp;</span>Все права защищены</p>
-    </div>  
-  </div>
-</footer>
-
+  <footer>
+    <div class="footer">  
+      <div class="footer-inner">
+        <div class="footer-inner__1">
+          <div class="footer-inner__1__1">
+            <img src="/img/star-left-footer.png" alt="">
+            <img src="/img/smile-left-footer.svg" alt="">
+            <img src="/img/footer-mob-light.png" alt="">
+          </div>
+          <div class="footer-inner__1__2">
+            <img src="/img/hart-footer.png" alt="">
+          </div>
+          <div class="footer-inner__1__3">
+            <img src="/img/circle-right-footer.png" alt="">
+            <img src="/img/hand-right-footer.svg" alt="">
+            <img src="/img/footer-mob-right.png" alt="">
+          </div>
+        </div>
+        <div class="footer-inner__2">
+          <p class="footer-text"><span>&copy;</span>2023г&nbsp;&nbsp;Все права защищены</p>
+        </div>
+        <div class="footer-inner__bottom"></div>
+      </div>       
+    </div>
+  </footer>
+  
+  <svg width="0" height="0" class="hidden">
+    <symbol version="1.1" id="vk" xmlnsSvgjs="http://svgjs.com/svgjs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 512 512">
+      <path d="M476.1,35.9C440.1,0,382.3,0,266.7,0h-21.3C129.7,0,71.9,0,35.9,35.9C0,71.9,0,129.7,0,245.3v21.3
+      c0,115.7,0,173.5,35.9,209.4C71.9,512,129.7,512,245.3,512h21.3c115.7,0,173.5,0,209.4-35.9C512,440.1,512,382.3,512,266.7v-21.3
+      C512,129.7,512,71.9,476.1,35.9z M416.1,362.7h-37.3c-14.2,0-18.4-11.4-43.7-36.7c-22.2-21.4-31.6-24.1-37.2-24.1
+      c-7.5,0-9.8,2.1-9.8,12.8v33.5c0,9.2-2.9,14.5-26.7,14.5c-39.6,0-83-24-113.9-68.3c-46.3-64.9-58.9-113.9-58.9-123.8
+      c0-5.5,2.1-10.6,12.8-10.6h37.3v0c9.5,0,13.1,4.2,16.7,14.5c18.3,53.2,49.1,99.7,61.7,99.7c4.7,0,6.9-2.2,6.9-14.2v-55
+      c-1.4-25.3-14.8-27.4-14.8-36.4c0-4.2,3.6-8.6,9.5-8.6h58.7c7.9,0,10.7,4.2,10.7,13.7v74c0,7.9,3.4,10.7,5.8,10.7
+      c4.7,0,8.7-2.8,17.4-11.5c26.9-30.1,45.9-76.3,45.9-76.3c2.4-5.5,6.8-10.6,16.2-10.6h37.3c11.3,0,13.7,5.8,11.3,13.7
+      c-4.7,21.8-50.2,85.8-50.2,85.8c-4,6.3-5.5,9.5,0,16.6c4,5.5,17,16.6,25.7,26.9c16,18,28.1,33.3,31.5,43.8
+      C432.1,357.3,426.7,362.7,416.1,362.7z"></path>
+    </symbol>
+  </svg> 
 </body>
 
 </html>

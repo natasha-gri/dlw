@@ -12,12 +12,12 @@ html, body {
 
 /* 3) + цвет фона + центрирование содержимого*/
 footer {
-  height: 100px;
-  margin-top: -100px; }
+  height: 388px;
+  margin-top: -388px; }
 
 /* 4) */
 .clr {
-  height: 100px; }
+  height: 388px; }
 
 @media (max-width: 1024px) {
   footer {
@@ -96,6 +96,14 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.g-rowpd_name {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.g-rowpd_process {
+  padding-top: 150px;
+  padding-bottom: 50px; }
+
 .hidden {
   display: none; }
 
@@ -103,7 +111,7 @@ footer {
   font-family: 'Tablon', 'Montserrat', Verdana, 'Geneva', sans-serif; }
 
 .second-font, .main-menu__item span, a, .text-basic,
-p, span, footer p, footer span, .tabs > label, .accordion__header__title p:nth-child(2), .footer-text p {
+p, span, footer p, footer span, .tabs > label, .tabs-proc > label, .accordion__header__title p:nth-child(2), .footer-text p {
   font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace; }
 
 h1 {
@@ -191,6 +199,16 @@ footer p, footer span {
   padding-bottom: 2px; }
 
 .tabs > label {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.025em;
+  vertical-align: middle;
+  color: #F0F0F0; }
+
+.tabs-proc > label {
   font-size: 1.5em;
   font-weight: 400;
   font-stretch: normal;
@@ -803,6 +821,85 @@ footer p, footer span {
       display: flex;
       column-gap: 20px;
       align-items: center; }
+
+/*------------------------------------------*/
+/*            табы процесса                 */
+/*------------------------------------------*/
+.tabs-proc {
+  margin-top: 70px;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-areas: "a a a a f f f f f f f f" "b b b b f f f f f f f f" "c c c c f f f f f f f f" "d d d d f f f f f f f f" "e e e e f f f f f f f f"; }
+
+.item-a {
+  grid-area: a; }
+
+.item-b {
+  grid-area: b; }
+
+.item-c {
+  grid-area: c; }
+
+.item-d {
+  grid-area: d; }
+
+.item-e {
+  grid-area: e; }
+
+.item-f {
+  grid-area: f; }
+
+.tab-buttons {
+  display: flex; }
+
+.tabs-proc > input[type="radio"] {
+  display: none; }
+
+.tabs-proc .tab-proc__content div {
+  display: none; }
+
+#tab-btn-1:checked ~ .tab-proc__content > .content-proc__1,
+#tab-btn-2:checked ~ .tab-proc__content > .content-proc__2,
+#tab-btn-3:checked ~ .tab-proc__content > .content-proc__3,
+#tab-btn-4:checked ~ .tab-proc__content > .content-proc__4,
+#tab-btn-5:checked ~ .tab-proc__content > .content-proc__5 {
+  display: block; }
+
+.tabs-proc > label {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 18px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-color: #0E111A;
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  cursor: pointer; }
+
+.tabs-proc input[type="radio"]:checked + label {
+  font-weight: 700;
+  color: #0E111A;
+  background: linear-gradient(90deg, #899ABA 0%, #8AD4C2 38.52%, #5B7EBF 68.75%);
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 1px #0E111A;
+  transform: scale(1.005); }
+
+.tab-proc__content {
+  height: 400px;
+  margin-top: -5px;
+  display: flex;
+  justify-content: flex-end; }
+
+.tab-proc__content div {
+  width: 65vw;
+  padding-right: 9%; }
+
+.tabs-proc label {
+  width: 20vw; }
 
 .footer-inner__1 {
   height: 317px;

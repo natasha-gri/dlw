@@ -1,1 +1,102 @@
+/*------------------------------------------*/
+/*            табы процесса                 */
+/*------------------------------------------*/
+.tabs-proc{
+  margin-top: 70px;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-areas:
+  "a a a a f f f f f f f f"
+  "b b b b f f f f f f f f"
+  "c c c c f f f f f f f f"
+  "d d d d f f f f f f f f"
+  "e e e e f f f f f f f f";
+}
 
+.item-a{
+  grid-area: a;  
+}
+.item-b{
+  grid-area: b;  
+}
+.item-c{
+  grid-area: c;  
+}
+.item-d{
+  grid-area: d;  
+}
+.item-e{
+  grid-area: e;  
+}
+.item-f{
+  grid-area: f;  
+}
+
+.tab-buttons {
+  display: flex;
+}
+
+.tabs-proc>input[type="radio"] {
+  display: none;
+}
+
+.tabs-proc .tab-proc__content div{
+  display: none;
+}
+
+#tab-btn-1:checked ~ .tab-proc__content > .content-proc__1,
+#tab-btn-2:checked ~ .tab-proc__content > .content-proc__2,
+#tab-btn-3:checked ~ .tab-proc__content > .content-proc__3,
+#tab-btn-4:checked ~ .tab-proc__content > .content-proc__4,
+#tab-btn-5:checked ~ .tab-proc__content > .content-proc__5 {
+  display: block;
+}
+
+.tabs-proc>label {
+  margin: 0;
+  margin-bottom: 20px;
+  // margin-top: -1px;
+  padding: 18px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-color: $body-bg;
+  border: 1px solid $white-grey;
+  box-sizing: border-box;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  cursor: pointer;
+  // &:nth-child(4){
+  //   border-left: 1px solid $body-bg;
+  // }
+  // &:nth-child(8){
+  //   border-left: 1px solid $body-bg;
+  // }
+  // &:nth-child(10){
+  //   border-left: 1px solid $body-bg;
+  // }
+}
+
+.tabs-proc input[type="radio"]:checked + label {
+  font-weight: 700;
+  color: $body-bg;
+  background: $gradient-main;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 1px $body-bg;
+  transform: scale(1.005);
+}
+
+.tab-proc__content{
+  height: 400px;
+  margin-top: -5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.tab-proc__content div{
+  width: 65vw;
+  padding-right: 9%;
+}
+.tabs-proc label{
+  width: 20vw;
+}

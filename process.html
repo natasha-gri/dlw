@@ -5,50 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Эксперт</title>
+  <title>DLW</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-
   <link rel="stylesheet" href="style/css/reset.css">
+  <link rel="stylesheet" href="style/css/fontello.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/css/fonts.css">
+  <link rel="stylesheet" href="style/css/iconsprit.css">
+  <link rel="stylesheet" href="style/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="style/css/style.css">
-
+  <script defer src="js/swiper-bundle.min.js"></script>
   <script defer src="js/main.js"></script>
 </head>
 
 <body>
-  <div class="main-container hidden-for-mobile">
+  <div class="main-container">
     <header>
-      <!-- блок меню -->
       <div class="header g-rowpd_header">
-        <div class="header-inner g-colsr">          
-          <!-- лого -->
-          <div class="">
-              <a href="index.html"><img src="img/logo-desctop.svg" alt="logo-desctop" width="150"></a>
+        <div class="header-inner g-colscr">   
+          <div class="header-logo">
+            <a href="index.html"><img src="img/logo-desctop.svg" alt="logo-desctop" width=""></a>
           </div>
-          <!-- меню -->
-          <div id="mainMenu" class="main-menu">
-
-            <!-- <label for="menu" class="main-menu__label"></label>
-            <input id="menu" type="checkbox" class="main-menu__input"> -->
-
-            <nav id="#">
-              <ul class="main-menu__list">
-                <li class="main-menu__item">
-                  <a href="/process.html">_процесс</a>   
-                </li>                    
-                <li class="main-menu__item">
-                  <a href="/contacts.html">_контакты</a>
-                </li>
-                <li class="main-menu__item">
-                  <a href="/model.html">_модель</a>
-                </li>
-              </ul>
-            </nav>
+          <div class="burger-container">
+            <input type="checkbox" name="" id="">
+            <div class="burger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+            </div>
+            <div id="mainMenu" class="main-menu">
+              <nav id="#">
+                <ul class="main-menu__list">
+                  <li class="main-menu__item">
+                    <span>01</span><a href="index.html">главная</a>   
+                  </li> 
+                  <li class="main-menu__item">
+                    <span>02</span><a href="/process.html">процесс</a>   
+                  </li>                    
+                  <!-- <li class="main-menu__item">
+                    <span>03</span><a href="/model.html">челендж</a>
+                  </li> -->
+                  <li class="main-menu__item">
+                    <span>03</span><a href="/contacts.html">контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
-
         </div>
       </div>
 
@@ -57,37 +61,54 @@
     <main>
       
       <!-- 1 блок Процесс -->
-      <section>
-        <div class="process g-rowpd_name">
-          <div class="process-inner g-colsr">                        
-            
+      <section>  
+        <!-- Табы -->
+        <section>
+          <div class="process g-rowpd_process">
+            <div class="process-inner g-colscr">  
               <h2>Процесс</h2>
               <div>
-                <div><span>1</span><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты</p></div>
-                <div><span>2</span><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты</p></div>
-                <div><span>3</span><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты</p></div>
+                <p>Мы ценим прозрачность и готовы начать работу, чтобы реализовать ваш веб-проект. Если у вас возникнут вопросы или потребуется дополнительная информация, не стесняйтесь обращаться к нам. Мы готовы сотрудничать с вами и помочь воплотить в жизнь ваше веб-решение</p>
               </div>
-            
-          </div>
-        </div>
-      </section>
+              <div class="tabs-proc">
+                
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label for="tab-btn-1" class="item-a tab-btn-1">введение в проект</label>
 
-      <!-- 2 блок Ответы -->
-      <section>
-        <div class="questions g-rowpd_name">
-          <div class="questions-inner g-colsr">                        
-            
-              <h2>Ответы</h2>
-              <div>
-                <div><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра</p></div>
-                <div><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра</p></div>
-                <div><p>Душа моя озарена неземной радостью, как эти чудесные весенние утра</p></div>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label for="tab-btn-2" class="item-b tab-btn-2">дизайн проектирование</label>
+
+                <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                <label for="tab-btn-3" class="item-c tab-btn-3">техническая реализация</label>
+
+                <!-- <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+                <label for="tab-btn-4" class="item-d tab-btn-4">размещение на хостинге</label>
+
+                <input type="radio" name="tab-btn" id="tab-btn-5" value="">
+                <label for="tab-btn-5" class="item-e tab-btn-5">зачем</label> -->
+                                          
+                <div class="item-f tab-proc__content">
+                  <div id="content-1" class="content-proc__1">
+                    <p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минутыДуша моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделатьДуша моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минутыДуша моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать</p>
+                  </div>
+                  <div id="content-2" class="content-proc__2">
+                    <p>Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты.</p>
+                  </div>
+                  <div id="content-3" class="content-proc__3">
+                    <p>Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув к земле, вижу тысячи всевозможных былинок и чувствую, как близок моему сердцу крошечный мирок, что снует между стебельками, наблюдаю эти неисчислимые, непостижимые разновидности червяков и мошек и чувствую близость всемогущего, создавшего нас по своему подобию, веяние вселюбящего, судившего нам парить в вечном блаженстве, когда взор мой туманится и все вокруг меня и небо</p>
+                  </div>
+                  <!-- <div id="content-4" class="ccontent-proc__4">
+                    <p>Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного бога!</p>
+                  </div>
+                  <div id="content-5" class="content-proc__5">
+                    <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот</p>
+                  </div> -->
+                </div>
+                
               </div>
-            
+            </div>
           </div>
-        </div>
-      </section>
-
+        </section> 
     </main>
             
     <div class="clr"></div>
@@ -96,10 +117,27 @@
 
   <footer>
     <div class="footer">  
-      <div class="footer-inner g-colsr">
-        <p class="footer-text">2023г</p>
-        <p class="footer-text"><span>&copy;&nbsp;</span>Все права защищены</p>
-      </div>  
+      <div class="footer-inner">
+        <div class="footer-inner__1">
+          <div class="footer-inner__1__1">
+            <img src="/img/star-left-footer.png" alt="">
+            <img src="/img/smile-left-footer.svg" alt="">
+            <img src="/img/footer-mob-light.png" alt="">
+          </div>
+          <div class="footer-inner__1__2">
+            <img src="/img/hart-footer.png" alt="">
+          </div>
+          <div class="footer-inner__1__3">
+            <img src="/img/circle-right-footer.png" alt="">
+            <img src="/img/hand-right-footer.svg" alt="">
+            <img src="/img/footer-mob-right.png" alt="">
+          </div>
+        </div>
+        <div class="footer-inner__2">
+          <p class="footer-text"><span>&copy;</span>2023г&nbsp;&nbsp;Все права защищены</p>
+        </div>
+        <div class="footer-inner__bottom"></div>
+      </div>       
     </div>
   </footer>
   

@@ -123,6 +123,17 @@ footer p, footer span {
   vertical-align: middle;  
   color: $white-grey;
 }
+.tabs-proc > label{ 
+  @extend .second-font;
+  font-size: 1.5em; //19.2px
+  font-weight: 400; //regular
+  font-stretch: normal;
+  font-style: normal; 
+  text-align: center;
+  letter-spacing: 0.025em;
+  vertical-align: middle;  
+  color: $white-grey;
+}
 
 .marquee1, .marquee2 {
   @extend .first-font;
