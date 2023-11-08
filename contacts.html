@@ -60,22 +60,47 @@
 
     <main>
       
-      <!-- 1 блок Процесс -->
+      <!-- 1 блок -->
       <section>  
-        <!-- Табы -->
-        <section>
-          <div class="process g-rowpd_process">
-            <div class="process-inner g-colscr">  
-              <h2>Контакты</h2>
-              <div>
-                <p>Мы ценим прозрачность и готовы начать работу, чтобы реализовать ваш веб-проект. Если у вас возникнут вопросы или потребуется дополнительная информация, не стесняйтесь обращаться к нам. Мы готовы сотрудничать с вами и помочь воплотить в жизнь ваше веб-решение</p>
-              </div>
-              <img src="/img/phone.svg" alt="">
-              <img src="/img/mail.svg" alt="">
+      
+        <div class="contacts g-rowpd_contacts">
+          <div class="contacts-inner g-colscr">  
+            <h2 class="page__title-contacts">Контакты</h2>
 
-            </div>
+            <div class="contacts__wrap">
+
+              <div class="contacts__wrap__col data-box">
+                <div class="data-box__row"><img src="/img/phone.svg" alt=""><a href="tel:+79829830160" class="button-text button">+7 982 983 01 60</a></div>
+                <div class="data-box__row"><img src="/img/mail.svg" alt=""><a href="mailto:natashagri.dw@gmail.com" class="button-text button">natashagri.dw@gmail.com</a></div>
+              </div>
+
+              <div class="contacts__wrap__col login-box">
+                <form action="process_form.php" method="post">
+                  <div class="user-box">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Имя:</label>
+                  </div>
+                  <div class="user-box">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                  </div>
+                  <div class="user-box">
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="message">Сообщение:</label>
+                  </div>
+                
+                  <div class="textarea-box">
+                    <input type="submit" value="Отправить">
+                  </div>
+                </form>
+              </div>
+
+            </div>            
+
           </div>
-        </section> 
+        </div>
+
+      </section> 
     </main>
             
     <div class="clr"></div>
@@ -89,7 +114,7 @@
           <div class="footer-inner__1__1">
             <img src="/img/star-left-footer.png" alt="">
             <img src="/img/smile-left-footer.svg" alt="">
-            <img src="/img/footer-mob-light.png" alt="">
+            <img src="/img/footer-mob-light1.png" alt="">
           </div>
           <div class="footer-inner__1__2">
             <img src="/img/hart-footer.png" alt="">

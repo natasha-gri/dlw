@@ -1,0 +1,25 @@
+@media (max-width : 480px){
+
+  .tabs-proc{
+    grid-template-areas:
+    "a a a a a a a a a a a a"
+    "b b b b b b b b b b b b"
+    "c c c c c c c c c c c c"
+    "f f f f f f f f f f f f";
+  }
+  .tabs-proc label {
+    width: 88vw;
+    padding: 16px 4px;
+}
+h2, .process__title {
+  margin-bottom: 10px;
+}
+
+  .contacts{
+    &__wrap{
+      row-gap: 20px;
+    }
+  }
+
+}
+

@@ -1,0 +1,24 @@
+@media (max-width : 1024px){
+
+  .tabs-proc{
+    margin-bottom: 0vh;
+    grid-template-areas:
+    "a a a a b b b b c c c c"
+    "f f f f f f f f f f f f";
+  }
+  .tabs-proc label {
+    width: 30vw;
+  }
+  .tab-proc__content {
+    justify-content: flex-start;
+    & div{
+      width: 86vw;
+      padding-right: 0;
+    }
+  }
+
+  .contacts__wrap{
+    margin-top: 36px;
+  }
+}
+

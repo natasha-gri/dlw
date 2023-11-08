@@ -1,16 +1,31 @@
+h2, .page__title{
+  margin-bottom: 30px;
+}
+
+// .page__title-contacts{
+//   display: none;
+// }
+
+.page__description{
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
 /*------------------------------------------*/
 /*            табы процесса                 */
 /*------------------------------------------*/
+
+
 .tabs-proc{
   margin-top: 70px;
+  margin-bottom: -12vh;
   display: grid;
-  grid-gap: 0px;
+  grid-gap: 20px;
   grid-template-areas:
   "a a a a f f f f f f f f"
   "b b b b f f f f f f f f"
   "c c c c f f f f f f f f"
-  "d d d d f f f f f f f f"
-  "e e e e f f f f f f f f";
+  "d d d d f f f f f f f f";
 }
 
 .item-a{
@@ -54,7 +69,6 @@
 
 .tabs-proc>label {
   margin: 0;
-  margin-bottom: 20px;
   // margin-top: -1px;
   padding: 18px 10px;
   display: flex;
@@ -66,15 +80,6 @@
   box-sizing: border-box;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   cursor: pointer;
-  // &:nth-child(4){
-  //   border-left: 1px solid $body-bg;
-  // }
-  // &:nth-child(8){
-  //   border-left: 1px solid $body-bg;
-  // }
-  // &:nth-child(10){
-  //   border-left: 1px solid $body-bg;
-  // }
 }
 
 .tabs-proc input[type="radio"]:checked + label {
@@ -88,7 +93,7 @@
 }
 
 .tab-proc__content{
-  height: 400px;
+  //height: 250px;
   margin-top: -5px;
   display: flex;
   justify-content: flex-end;
@@ -100,3 +105,112 @@
 .tabs-proc label{
   width: 20vw;
 }
+
+/*-------------------------------------------*/
+/*                  контакты                 */
+/*-------------------------------------------*/
+
+.contacts{
+  &__wrap{
+    margin-top: 70px;
+    display: flex;
+    &__col{
+      width: 50%;
+    }
+  }
+}
+
+.data-box{
+  padding-top: 12px;
+  &__row{
+    margin-bottom: 32px;
+    display: flex;
+    column-gap: 32px;
+  }
+}
+
+/*-------------------------------------------*/
+/*                  форма                    */
+/*-------------------------------------------*/
+.login-box {
+  // width: 400px;
+  // padding: 40px;
+  // box-sizing: border-box;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+  font-size: 16px;
+  color: $white-grey;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid $white-grey;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box textarea {
+  width: 100%;
+  height: 45px;
+  padding: 10px 0;
+  resize: none;
+  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+  font-size: 16px;
+  color: $white-grey;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid $white-grey;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+  font-size: 16px;
+  color: $white-grey;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box input[type=submit]{
+  width: 237px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  background: $gradient-main;
+  color: $body-bg;
+  text-align: center;
+  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: $blue;
+  font-size: 12px;
+}
+.login-box .user-box textarea:focus ~ label,
+.login-box .user-box textarea:valid ~ label {
+  top: -30px;
+  left: 0;
+  color: $blue;
+  font-size: 12px;
+}
+
+

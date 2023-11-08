@@ -1,0 +1,12 @@
+@media (max-width : 360px){
+  .tabs-proc{
+    margin-top: 40px;
+    row-gap: 15px;
+  }
+  .contacts{
+    &__wrap{
+      margin-top: 30px;
+    }
+  }
+}
+

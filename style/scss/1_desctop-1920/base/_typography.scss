@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   @extend .first-font;
-  font-size: 4.6875em; // 75
+  font-size: 3.5em; // 56
   font-weight: 500; //medium
   font-stretch: normal;
   font-style: normal;
@@ -107,7 +107,6 @@ footer p, footer span {
   font-style: normal;
   line-height: 160%;
   letter-spacing: 0.025em;
-  letter-spacing: 0.025em;
   color: $body-bg;
   padding-bottom: 2px;
 }
@@ -167,6 +166,19 @@ footer p, footer span {
   }
 }
 
+.data-box{
+  & a{
+    @extend .second-font;
+    font-size: 1.375em;
+    font-weight: 400; 
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 160%;
+    letter-spacing: 0.025em;
+    color: $white-grey;
+  }
+}
+
 // ***************** footer
 .footer-text p{
 @extend .second-font;
@@ -175,3 +187,32 @@ font-weight: 400;
 font-size: 0.875em;
 line-height: 110%;
 }
+
+@media (max-width : 1600px) {
+  .tabs-proc > label{ 
+    font-size: 1.2em; //19.2px
+  }
+}
+
+@media (max-width : 1280px) {
+  .tabs-proc > label{ 
+    line-height: 110%;
+  }
+}
+
+@media (max-width : 480px){
+ h2{
+  font-size: 3.5em;
+ } 
+}
+@media (max-width : 360px){
+  h2{
+   font-size: 2.5em;
+  } 
+  .data-box{
+    & a{
+      font-size: 1em;
+    }
+  }
+  
+ }

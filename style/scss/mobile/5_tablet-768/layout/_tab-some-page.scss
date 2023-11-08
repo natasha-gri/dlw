@@ -1,0 +1,33 @@
+@media (max-width : 768px){
+
+  .tabs-proc{
+    grid-gap: 10px;
+    row-gap: 30px
+  }
+  .tabs-proc label {
+    width: 29vw;
+  }
+  .tab-proc__content {
+    & div{
+      width: 88vw;
+    }
+  }
+
+  .contacts{
+    &__wrap{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+      &__col{
+        width: 100%;
+      }
+    }
+  }
+  .textarea-box{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
