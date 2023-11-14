@@ -1666,6 +1666,9 @@ h2, .page__title {
 @media (max-width: 834px) {
   .accordion__header__title p:nth-child(2) {
     margin-left: 0px; } }
+@media (max-width: 700px) {
+  .accordion__header__title p:nth-child(1) {
+    font-size: 8vw; } }
 @media (max-width: 834px) {
   .main-menu {
     width: 40vw; } }
@@ -1755,8 +1758,8 @@ h2, .page__title {
     height: 220px; } }
 /* 6_mob-от 360 до 480*/
 @media (max-width: 480px) {
-  .accordion__header__title p:nth-child(1) {
-    font-size: 2.3em; }
+  .contacts__wrap__col.data-box > div:nth-child(2) > a {
+    font-size: 4.5vw; }
 
   .accordion__header__title p:nth-child(2) {
     margin-top: -5px;
@@ -1948,9 +1951,6 @@ h2, .page__title {
 
   a {
     font-size: 0.75em; }
-
-  .accordion__header__title p:nth-child(1) {
-    font-size: 1.8em; }
 
   .accordion__header__title p:nth-child(2) {
     margin-top: -5px;

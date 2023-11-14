@@ -3,3 +3,9 @@
     margin-left: 0px;
 }
 }
+
+@media (max-width : 700px) {
+  .accordion__header__title p:nth-child(1) {
+    font-size: 8vw;
+}
+}
