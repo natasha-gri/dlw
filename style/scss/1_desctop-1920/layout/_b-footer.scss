@@ -73,7 +73,7 @@
   }
 }
 
-.footer-inner__1__1 > img:nth-child(2){
+.footer-inner__1__1 > img:nth-child(2), .cover-bottom__3 > div > img:nth-child(2){
   animation: yogi-footer 4s linear infinite alternate-reverse;
 }
 @keyframes yogi-footer {

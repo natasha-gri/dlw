@@ -479,7 +479,7 @@ footer p, footer span {
     top: 39%;
     right: -71px; }
 
-.cover-top__1__arrows-icon {
+.cover-top__1__arrows-icon, .cover-top__arrows-icon {
   animation: arrows-icon-cover 1.5s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%) 0s infinite alternate-reverse; }
 
 @keyframes arrows-icon-cover {
@@ -643,7 +643,7 @@ footer p, footer span {
     bottom: 9%;
     right: 158px; }
 
-.cover-bottom__2__hello-world_stiker {
+.cover-bottom__2__hello-world_stiker, .cover-bottom__3__hello-world_stiker {
   animation: hello-world_stiker-cover 3.5s ease-in-out 0s infinite alternate-reverse; }
 
 @keyframes hello-world_stiker-cover {
@@ -1183,7 +1183,7 @@ h2, .page__title {
 .footer-inner__bottom {
   height: 20px; }
 
-.footer-inner__1__1 > img:nth-child(2) {
+.footer-inner__1__1 > img:nth-child(2), .cover-bottom__3 > div > img:nth-child(2) {
   animation: yogi-footer 4s linear infinite alternate-reverse; }
 
 @keyframes yogi-footer {
@@ -1766,7 +1766,7 @@ h2, .page__title {
     width: 68vw; } }
 @media (max-width: 480px) {
   .cover-inner {
-    background-image: url(/img/html-bg.webp), url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-image: url(/img/html-bg-0.webp), url(/img/css-bg-0.webp), url(/img/bgi-rows.svg);
     background-position: 0% 57%, 140% 79%, 94% 100%;
     background-repeat: no-repeat;
     background-size: 0%, 57%, 0%; }
@@ -1799,7 +1799,7 @@ h2, .page__title {
       max-width: 76%;
       top: -33px;
       left: -23px;
-      transform: rotate(348deg); }
+      transform: rotate(359deg); }
     .cover-top__2__h1-large__3-planets {
       width: 31%;
       bottom: -77%;
@@ -1841,8 +1841,7 @@ h2, .page__title {
       display: block;
       position: absolute;
       top: -12%;
-      left: 0%;
-      transform: rotate(352deg); }
+      left: 0%; }
     .cover-bottom__3__star1-mak {
       max-width: 28%;
       top: 18%;
@@ -1992,7 +1991,7 @@ h2, .page__title {
     max-width: 8%; } }
 @media (max-width: 360px) {
   .cover-inner {
-    background-image: url(/img/html-bg.webp), url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-image: url(/img/html-bg-0.webp), url(/img/css-bg-0.webp), url(/img/bgi-rows.svg);
     background-position: 0% 57%, 140% 83%, 94% 100%;
     background-repeat: no-repeat;
     background-size: 0%, 57%, 0%; }
@@ -2018,7 +2017,7 @@ h2, .page__title {
     top: 37%;
     right: 4%; }
   .cover-bottom__3__star img:nth-child(2) {
-    bottom: 17%; } }
+    bottom: 21%; } }
 @media (max-width: 360px) {
   .tabs-proc {
     margin-top: 40px;

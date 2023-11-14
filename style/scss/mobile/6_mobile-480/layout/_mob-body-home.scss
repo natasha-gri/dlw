@@ -1,10 +1,11 @@
 @media (max-width: 480px){
   .cover-inner {
-    background-image: url(/img/html-bg.webp), url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-image: url(/img/html-bg-0.webp), url(/img/css-bg-0.webp), url(/img/bgi-rows.svg);
     background-position: 0% 57%, 140% 79%, 94% 100%;
     background-repeat: no-repeat;
     background-size: 0%, 57%, 0%;
   }
+
 
   .cover-top {
     height: 30vh;
@@ -44,7 +45,7 @@
           max-width: 76%;
           top: -33px;
           left: -23px;
-          transform: rotate(348deg);
+          transform: rotate(359deg);
         }
       }
       &__3-planets{
@@ -101,7 +102,6 @@
       position: absolute;
       top: -12%;
       left: 0%;
-      transform: rotate(352deg);
     }
     &__star1-mak{
       max-width: 28%;

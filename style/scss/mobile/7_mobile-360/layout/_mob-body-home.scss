@@ -1,6 +1,6 @@
 @media (max-width: 360px) {
   .cover-inner {
-    background-image: url(/img/html-bg.webp), url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-image: url(/img/html-bg-0.webp), url(/img/css-bg-0.webp), url(/img/bgi-rows.svg);
     background-position: 0% 57%, 140% 83%, 94% 100%;
     background-repeat: no-repeat;
     background-size: 0%, 57%, 0%;
@@ -34,7 +34,7 @@
     &__star{
       & img{
         &:nth-child(2){
-          bottom: 17%;
+          bottom: 21%;
         }
       }
     }
