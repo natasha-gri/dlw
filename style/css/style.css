@@ -1061,6 +1061,9 @@ h2, .page__title {
 /*-------------------------------------------*/
 /*                  форма                    */
 /*-------------------------------------------*/
+.form * {
+  outline: none; }
+
 .login-box .user-box {
   position: relative; }
 
@@ -1080,7 +1083,7 @@ h2, .page__title {
   width: 100%;
   height: 45px;
   padding: 10px 0;
-  resize: none;
+  resize: vertical;
   font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
   font-size: 16px;
   color: #F0F0F0;
@@ -1101,11 +1104,12 @@ h2, .page__title {
   pointer-events: none;
   transition: .5s; }
 
-.login-box input[type=submit] {
+.login-box input[type=submit], .form_button {
   width: 237px;
   height: 53px;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 2px;
   background: linear-gradient(90deg, #899ABA 0%, #8AD4C2 38.52%, #5B7EBF 68.75%);
   color: #0E111A;
@@ -1117,7 +1121,13 @@ h2, .page__title {
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border: none; }
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease 0s; }
+  .login-box input[type=submit]:hover, .form_button:hover {
+    transform: translateY(-3px); }
+  .login-box input[type=submit]:active, .form_button:active {
+    transform: scale(0.98); }
 
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label {
@@ -1132,6 +1142,43 @@ h2, .page__title {
   left: 0;
   color: #5B7EBF;
   font-size: 12px; }
+
+.user-box__chekbox .checkbox__input {
+  display: none; }
+
+.checkbox__input:checked + .checkbox__label::after {
+  transform: scale(1); }
+
+.user-box__chekbox .checkbox__label {
+  position: relative;
+  font-size: 14px;
+  line-height: 120%;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer; }
+  .user-box__chekbox .checkbox__label::before {
+    content: "";
+    margin-right: 10px;
+    flex: 0 0 16px;
+    align-self: flex-start;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .user-box__chekbox .checkbox__label::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: 3px;
+    background-color: #5B7EBF;
+    border-radius: 2px;
+    transition: transform 0.5s ease 0s;
+    transform: scale(0); }
+  .user-box__chekbox .checkbox__label a {
+    display: inline;
+    color: red; }
 
 .footer-inner__1 {
   height: 317px;

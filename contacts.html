@@ -71,11 +71,12 @@
 
               <div class="contacts__wrap__col data-box">
                 <div class="data-box__row"><img src="/img/phone.svg" alt=""><a href="tel:+79829830160" class="button-text button">+7 982 983 01 60</a></div>
+                <div class="data-box__row"><img src="/img/telegram.svg" alt=""><a href="https://telegram.im/@natasha_gri_dw" target="_blank" class="button-text button">@natasha_gri_dw</a></div>
                 <div class="data-box__row"><img src="/img/mail.svg" alt=""><a href="mailto:natashagri.dw@gmail.com" class="button-text button">natashagri.dw@gmail.com</a></div>
               </div>
 
               <div class="contacts__wrap__col login-box">
-                <form action="process_form.php" method="post">
+                <form action="content_form.php" method="post">
                   <div class="user-box">
                     <input type="text" id="name" name="name" required>
                     <label for="name">Имя:</label>
@@ -88,10 +89,15 @@
                     <textarea id="message" name="message" rows="4" required></textarea>
                     <label for="message">Сообщение:</label>
                   </div>
-                
-                  <div class="textarea-box">
-                    <input type="submit" value="Отправить">
+                  <div class="user-box__chekbox">
+                    <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input" checked>
+                    <label for="formAgreement" class="checkbox__label"><span>Я даю согласие на обработку моих персональных данных в соответствии с <a href="#">условием</a></span></label>
                   </div>
+                
+                  <!-- <div class="textarea-box">
+                    <input type="submit" value="Отправить">
+                  </div> -->
+                  <button type="submit" class="form_button">Отправить</button>
                 </form>
               </div>
 
