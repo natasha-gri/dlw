@@ -253,7 +253,8 @@ footer p, footer span {
   font-style: normal;
   line-height: 160%;
   letter-spacing: 0.025em;
-  color: #F0F0F0; }
+  color: #F0F0F0;
+  white-space: nowrap; }
 
 .footer-text p {
   font-style: normal;
@@ -1049,7 +1050,10 @@ h2, .page__title {
   margin-top: 70px;
   display: flex; }
   .contacts__wrap__col {
-    width: 50%; }
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 18%; }
 
 .data-box {
   padding-top: 12px; }
@@ -1179,6 +1183,9 @@ h2, .page__title {
   .user-box__chekbox .checkbox__label a {
     display: inline;
     color: red; }
+
+.form__input._error {
+  border-bottom: 1px solid red !important; }
 
 .footer-inner__1 {
   height: 317px;
@@ -1364,6 +1371,9 @@ h2, .page__title {
 
   .marquee-container1 {
     transform: translate(-8px, 65px) rotate(354deg); } }
+@media (max-width: 1600px) {
+  .contacts__wrap__col {
+    column-gap: 10%; } }
 /* 3_desctop-от 1024 до 1280 */
 @media (max-width: 1280px) {
   .main-menu__item a {
@@ -1513,6 +1523,10 @@ h2, .page__title {
   .accordion__content {
     padding-bottom: 40px; } }
 @media (max-width: 1280px) {
+  .contacts__wrap__col {
+    column-gap: 18%;
+    flex-wrap: wrap; }
+
   .tabs-proc > label {
     padding: 10px 4px; } }
 /* 4_tablet-от 768 до 1024 */
@@ -1779,6 +1793,9 @@ h2, .page__title {
     flex-direction: column;
     row-gap: 18px; } }
 @media (max-width: 768px) {
+  .contacts__wrap__col {
+    flex-direction: column; }
+
   .tabs-proc {
     grid-gap: 10px;
     row-gap: 30px; }
@@ -1802,10 +1819,16 @@ h2, .page__title {
     justify-content: center; } }
 @media (max-width: 834px) {
   .footer-inner__1 {
+    height: 180px; } }
+@media (max-width: 768px) {
+  .footer-inner__1 {
     height: 220px; } }
 /* 6_mob-от 360 до 480*/
 @media (max-width: 480px) {
   .contacts__wrap__col.data-box > div:nth-child(2) > a {
+    font-size: 4.5vw; }
+
+  .contacts__wrap__col.data-box > div:nth-child(3) > a {
     font-size: 4.5vw; }
 
   .accordion__header__title p:nth-child(2) {
@@ -1983,7 +2006,7 @@ h2, .page__title {
     row-gap: 20px; } }
 @media (max-width: 480px) {
   .footer-inner__1 {
-    height: 170px; }
+    height: 130px; }
 
   .footer-inner__1__1 img:nth-child(3) {
     max-width: 75%;
@@ -2074,7 +2097,7 @@ h2, .page__title {
     margin-top: 30px; } }
 @media (max-width: 360px) {
   .footer-inner__1 {
-    height: 170px; }
+    height: 135px; }
 
   .footer-inner__1__1 img:nth-child(3) {
     max-width: 75%;

@@ -1,4 +1,10 @@
 @media (max-width : 1600px){
-
+  .contacts{
+    &__wrap{
+      &__col{
+        column-gap: 10%;
+      }
+    }
+  }
 }
 

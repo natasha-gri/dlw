@@ -1,5 +1,14 @@
 @media (max-width : 1280px){
 
+  .contacts{
+    &__wrap{
+      &__col{
+        column-gap: 18%;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
   .tabs-proc>label {
   padding: 10px 4px;
 }

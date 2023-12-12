@@ -1,5 +1,13 @@
 @media (max-width : 768px){
 
+  .contacts{
+    &__wrap{
+      &__col{
+        flex-direction: column;
+      }
+    }
+  }
+
   .tabs-proc{
     grid-gap: 10px;
     row-gap: 30px
