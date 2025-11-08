@@ -1016,11 +1016,11 @@ h2, .page__title {
   align-items: center;
   justify-content: center;
   user-select: none;
-  background-color: #0E111A;
   border: 1px solid #F0F0F0;
   box-sizing: border-box;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 100; }
 
 .tabs-proc input[type="radio"]:checked + label {
   font-weight: 700;
