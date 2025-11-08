@@ -1,6 +1,6 @@
 .cover{
   &-inner{  
-    background-image: url(/img/html-bg-0.webp),  url(/img/css-bg-0.webp), url(/img/bgi-rows.webp);  
+    background-image: url(../../img/html-bg-0.webp),  url(../../img/css-bg-0.webp), url(../../img/bgi-rows.webp);  
     background-position: 4% 50%, 98% 2%, 94% 100%;
     background-repeat: no-repeat;
     background-size: 30%, 16%, 60%;
@@ -9,7 +9,7 @@
 }
 @keyframes img-cover {
   to{
-    background-image: url(/img/html-bg.webp),  url(/img/css-bg.webp), url(/img/bgi-rows.svg);
+    background-image: url(../../img/html-bg.webp),  url(../../img/css-bg.webp), url(../../img/bgi-rows.svg);
   }
 }
 
