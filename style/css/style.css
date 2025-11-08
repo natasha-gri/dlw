@@ -115,7 +115,7 @@ footer {
   display: none; }
 
 .first-font, h1, h2, h3, h4, .main-menu__item a, .marquee1, .marquee2, .accordion__header__title p:nth-child(1) {
-  font-family: 'Tablon', 'Montserrat', Verdana, 'Geneva', sans-serif; }
+  font-family: 'Tablon', sans-serif; }
 
 .second-font, .main-menu__item span, a, .text-basic,
 p, span, footer p, footer span, .tabs > label, .tabs-proc > label, .accordion__header__title p:nth-child(2), .data-box a, .footer-text p {
